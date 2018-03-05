@@ -1,0 +1,5 @@
+---
+
+- hosts: lab
+  roles:
+    - { role: /etc/ansible/roles/ansible_apache }
